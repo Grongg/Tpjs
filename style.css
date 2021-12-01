@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
+
+body {
+  font-family: "Open Sans";
+}
+
+h1 {
+  font-family: "Comfortaa", cursive;
+}
+
+h1 span {
+  color: red;
+}
+nav h2 {
+  margin-right: 15px;
+  margin-top: 2px;
+  font-family: "Comfortaa", cursive;
+  font-size: 30px;
+}
+nav h2 span {
+  color: red;
+}
+
+nav {
+  display: flex;
+  justify-content: left;
+  height: 6vh;
+  margin-left: 30vh;
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+nav p {
+  margin-right: 25px;
+  margin-top: 14px;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+  height: 46px;
+  border: 1px solid black;
+  padding-right: 13px;
+  margin-top: 5px;
+}
+
+nav div input {
+  width: 53vw;
+  border: none;
+  outline: none;
+}
+
+#searchbar {
+  padding-left: 15px;
+}
+
+.intro {
+  background-color: rgba(175, 232, 244, 255);
+  height: 30vh;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+  color: white;
+}
+
+.intro div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2%;
+  margin-left: 150px;
+  width: 70vw;
+}
+
+.intro img {
+  margin-top: 2%;
+  margin-left: 30vh;
+  margin-right: 1.5%;
+  width: 450px;
+  height: 250px;
+}
+
+.intro h1 {
+  font-size: 45px;
+  margin-bottom: 30px;
+  font-weight: lighter;
+}
+
+.intro p {
+  margin-top: 8px;
+  font-size: 16px;
+}
+
+.intro button {
+  margin-top: 40px;
+  background-color: rgba(255, 165, 0, 255);
+  color: white;
+  width: 95px;
+  height: 35px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main h2 {
+  margin-top: 45px;
+  margin-bottom: 45px;
+  font-size: 30px;
+}
+
+main form {
+  margin-left: 110px;
+  border: 1px solid gray;
+  width: 73vw;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 30px;
+}
+
+form button {
+  width: 96%;
+  height: 4vh;
+  margin-left: 10px;
+  background-color: rgba(13, 110, 253, 255);
+  color: white;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  margin-top: 13px;
+  margin-bottom: 15px;
+}
+
+.data {
+  width: 76.5%;
+  height: 3vh;
+}
+
+main p {
+  width: 20%;
+}
+
+.tmpProfil {
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid grey;
+  width: 73vw;
+}
+
+#info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 4vh;
+  width: 75vw;
+}
+
+.tmpProfil img {
+  width: 10%;
+  height: 10%;
+}
+
+.tmpProfil p {
+  padding-left: 30px;
+  width: 100%;
+  font-weight: 200;
+}

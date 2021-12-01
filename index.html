@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="http://www.yourwebsite.com/favicon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sport 21</title>
+  </head>
+  <body>
+    <nav>
+      <h2>Sport <span>21</span></h2>
+      <p>Mon compte</p>
+      <p>Se déconnecter</p>
+      <div>
+        <input
+          id="searchbar"
+          type="text"
+          placeholder="Rechercher un sport, article, ou section"
+        />
+        <i class="fas fa-search"></i>
+      </div>
+    </nav>
+    <article class="intro">
+      <img id="simp" src="./assets/sport01.jpg" alt="" />
+      <div>
+        <h1>Bienvenue chez Sport <span>21</span></h1>
+        <p>Envie de bien être ou de remise à niveau ?</p>
+        <p>Laissez-vous guider, on s'occupe de tout.</p>
+        <button id="go">C'est parti</button>
+      </div>
+    </article>
+    <main>
+      <h2 id="firstStep">Première étape</h2>
+      <form action="register">
+        <div class="flexbox">
+          <p>Mon prénom:</p>
+          <input class="data" id="username" type="text" />
+        </div>
+        <div class="flexbox">
+          <p>Mon nom:</p>
+          <input class="data" id="lastname" type="text" />
+        </div>
+        <div class="flexbox">
+          <p>Mon email:</p>
+          <input class="data" id="mail" type="text" />
+        </div>
+        <div class="flexbox">
+          <p>Mon avatar:</p>
+          <input class="data" id="pp" type="text" />
+        </div>
+        <div class="flexbox">
+          <p>Mon age:</p>
+          <input class="data" id="age" type="text" />
+        </div>
+        <button type="submit">Valider</button>
+      </form>
+      <h2 class="profil">En attente de vos informations ...</h2>
+    </main>
+    <script src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/56b88bbc4d.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
